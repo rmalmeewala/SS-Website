@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+#main {
+        width: 1200px;
+        margin: 0em auto;
+        padding: 50px;                  /*50px*/
+        background-color: lightgrey;
+        border-radius: 2em;
+}
+
+#head {
+       position: relative;
+       z-index: 1;	   
+       top: 0px; 
+	   left: 0px; 
+	   width: 1000px; 
+	   height: 150px;
+	   background-color: blue;
+	   border-radius: 2em;
+}
+
+.float-left {
+    float:left;
+}
+
+.float-right {
+    float:right;
+}
+
+
+ul {
+    position: sticky;
+	top:0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;                        /*absolute;*/
+	
+	background-color: skyblue;               /* #f9f9f9; */
+    min-width: 160px;                        /* 160px; */
+    box-shadow: 0px 8px 16px 0px grey;      /* green; */  /*rgba(0,0,0,0.2)*/
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+	background-color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: red}    /* #f1f1f1 */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.clear {
+ clear: both;
+}
+
+
+
+#left-box   {
+             /*width: 50%; */
+             /*position: relative; */
+             /*font-size:75%;*/
+             background-color: grey; 
+             border: 1px solid black;
+             float: left;			 
+}
+#right-box  {
+             /*width: 36%;*/
+             /*font-size:75%;*/
+             /*background-color: skyblue;*/
+             border: 1px solid black;
+             float: right;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div id="main">
+<ul>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Gratitudinal &<br />Personal</a>
+    <div class="dropdown-content">
+      <a href="Gratitudinal-Family.html">Family</a>
+      <a href="Gratitudinal-Personal.html">Personal</a>
+    </div>
+  </li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Academic <br />Publications</a>
+    <div class="dropdown-content">
+      <a href="theses.html">Theses</a>
+      <a href="ap.buddhism.books.html">Buddhism</a>
+      <a href="literature.html">Literature</a>
+      <a href="#">Lingustics</a>
+	</div>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Popular <br />Writings</a>
+    <div class="dropdown-content">
+      <a href="#">Toronto Star</a>
+      <a href="pw_sinhala_dawasa.html">Dawasa (Sinhala)</a>
+      <a href="pw_sinhala_links.html">Other (Sinhala)</a>
+      <a href="#">Other (English)</a>
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Oral <br /> Presentations</a>
+    <+div class="dropdown-content">
+      <a href="#">Academic</a>
+      <a href="#">Popular(Socioreligious)</a>
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Creative <br /> Writing</a>
+    <div class="dropdown-content">
+      <a href="poetry.html">Poetry</a>
+      <a href="novels.html">Novel</a>
+      <a href="short_fictions.html">Short Fiction</a>
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Leadership & <br /> Initiatives</a>
+    <div class="dropdown-content">
+      <a href="L_and_I_ca.html">Canada</a>
+      <a href="L_and_I_cu.html">Cuba</a>
+    </div>
+  </li>
+ 
+ <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Buddhism <br />to Cuba</a>
+    <div class="dropdown-content">
+      <a href="cuba_spanish.html">Espanol</a>
+      <a href="cuba_english.html">English</a>
+	  <a href="cuba_gallary.html">Photo Gallary</a>
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Bouquets &<br />Brickbats</a>
+    <div class="dropdown-content">
+      <a href="scholarships.html">Scholarships</a>
+      <a href="bb_PrintMedia.html">Print Media</a>
+      <a href="bb_TV.html">TV</a>
+      <a href="bb_Film.html">Film</a>
+      <a href="bb_Anthologies.html">Anthologies</a>
+    </div>
+  </li>
+
+ </ul>
+
+<!-- <div> -->
+<!-- <hr size="10"> -->
+<!-- </div> -->
+
+<div id="left-box">
+<table border='1' cellpadding='1'>
+<tr><td><embed src="parents.pdf" width="750px" height="500px" /></td></tr>
+</table>
+</div>
+
+<div id="right-box">
+<table border='1' cellpadding='1'>
+<tr><td><embed src="Ven_Bihikku_Mihita_Bio-UofTWebsite.pdf" width="425px" height="500px" /></td></tr>
+</table>
+</div>
+
+
+
+
+<!-- <div class="clear"></div> -->
+		 
+<!-- </div> -->
+</body>
+</html>
+
